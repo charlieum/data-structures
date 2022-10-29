@@ -2,8 +2,6 @@ var Queue = function() {
   this.storage = {};
 };
 
-// var queueMethods = {};
-
 Queue.prototype.enqueue = function(value) {
   var queueLength = this.size();
 
